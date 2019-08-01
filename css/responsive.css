@@ -1,0 +1,142 @@
+@media screen and (max-width:767px){
+
+/* header */
+
+  .navbar{
+    width: 90%;
+    margin: 0 5%;
+    height: 50px;
+  }
+
+.navlist{
+  display: none;
+}
+
+/* main */
+
+.main-image{
+  width: 100%;
+  height: 650px;
+  background-image: url(../img/code.png);
+  background-position: center;
+  background-size:cover;
+}
+
+.main-font-all{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-font1{
+  font-size: 40px;
+}
+
+.main-font2{
+  font-size: 18px;
+}
+.portfolio-1{
+  width: 90%;
+  margin:0 5%;
+}
+
+.portfolio-box:nth-child(3n) {
+    margin: 0 auto 10px;
+  }
+.portfolio-box{
+  float: none;
+  margin: 0 auto 10px;
+}
+
+.pi-1{
+  display: none;
+}
+.pi-3{
+  display: none;
+}
+.pi-5{
+  display: none;
+}
+
+.feature{
+  width: 90%;
+  margin: 0 5%;
+}
+
+.flexbox{
+display: block;
+margin-bottom: 90px;
+}
+
+.list-item:last-child{
+  margin: 0 auto;
+}
+
+.list-item{
+  width: 320px;
+  height: auto;
+  margin:0 auto 30px;
+}
+
+.profile-all{
+  width: 90%;
+  margin: 0 5%;
+  padding-bottom: 90px;
+}
+
+.profile-img-box{
+  float: none;
+  margin: 0 auto ;
+}
+
+.profile-img{
+  width: 250px;
+  margin: 0 auto;
+  height: 250px;
+}
+
+.profile-text-box{
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h4-tag{
+  margin-top: 20px;
+}
+
+.contact{
+  width: 90%;
+  margin: 0 5%;
+  text-align: center;
+}
+
+.contact-method{
+  float: none;
+  margin: 0 auto;
+}
+
+.contact-tell{
+  margin-bottom: 20px;
+}
+
+.contact-icons{
+  float: none;
+  margin: 0 auto;
+}
+
+.fa-facebook-f{
+  margin-right: 8px;
+}
+.fa-twitter{
+  margin-right: 8px;
+}
+
+}
+
+
+
+@media screen and (min-width:768px){
+   #nav-drawer{
+     display: none;
+   }
+}
